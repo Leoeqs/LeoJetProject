@@ -6,6 +6,7 @@ import re
 
 
 # VERY IMPORTANT IT DOES NOT WORK WITH MULTI OUTCOME MARKETS SOMTIMES AND WITH WEIRD CHARACTERS IN TITLE  
+
 def clean_slug(raw_input: str) -> str:
     """Convert any user input (URL, title, slug) into a normalized slug format."""
     raw_input = raw_input.strip()
